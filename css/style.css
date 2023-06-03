@@ -1,0 +1,721 @@
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   color: #774E2E;
+   font-family: 'Montserrat', sans-serif;
+   margin: 0px;
+   padding: 0px;
+}
+
+/* Header */
+header {
+   padding-top: 37px;
+}
+
+.container {
+   max-width: 1170px;
+   margin: 0px auto;
+}
+
+.menu__logo-top {
+   width: 79px;
+   height: 79px;
+}
+
+.menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav a {
+   color: #774E2E;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20.8px;
+   margin-right: 50px;
+   letter-spacing: 0.2px;
+   text-decoration: none;
+   transition-duration: 1s;
+}
+
+nav a:last-child {
+   margin-right: 0px;
+}
+
+.about__content {
+   max-width: 575px;
+   padding-bottom: 20px;
+}
+
+.about {
+   background-image: url(../img/pic/yammi-header.png);
+   background-repeat: no-repeat;
+   background-size: 575px 596px;
+   background-position: right 0px bottom -35px;
+}
+
+h1 {
+   color: #F37F34;
+   font-size: 110px;
+   font-weight: 800;
+   letter-spacing: 0.05px;
+   line-height: 110px;
+   padding-top: 85px;
+   overflow-wrap: break-word;
+}
+
+h1 span {
+   color: #774E2E;
+   display: inline-block;
+   padding-bottom: 20px;
+   overflow-wrap: break-word;
+}
+
+nav a:hover {
+   font-size: 125%;
+   transition-duration: 1s;
+ }
+
+.about__link {
+   background-color: #774E2E;
+   color: #FFFFFF;
+   text-decoration: none;
+   text-align: center;
+   display: block;
+   width: 343px;
+   height: 69px;
+   font-size: 20px;
+   font-weight: 500;
+   letter-spacing: 0.01em;
+   line-height: 69px;
+   margin-top: 50px;
+   margin-bottom: 20px;
+   transition-duration: 1s;
+}
+
+.about__link:hover {
+    background-color: #bd875e;
+    transition-duration: 1s;
+}
+
+/* Main */
+.main_block1__sweets {
+   max-width: 1170px;
+   margin: 0px auto;
+   margin-top: 150px;
+   padding-top: 75px;
+   padding-bottom: 150px;
+}
+
+h2 {
+   font-size: 72px;
+   font-weight: 700;
+   line-height: 110%;
+   letter-spacing: 0.01em;
+   text-align: center;
+   overflow-wrap: break-word;
+}
+
+h2 span {
+   color: #F37F34;
+   overflow-wrap: break-word;
+}
+
+.sweets__block {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1170px;
+   margin-top: 70px;
+}
+
+.sweets__block_color {
+   background-color: #FFFFFF;
+   width: 370px;
+   height: 462px;
+   background-repeat: no-repeat;
+   background-size: 370px 248px;
+   background-position: top;
+}
+
+.sweets__block1 {
+   background-image: url(../img/pic/red-poppy.png);
+}
+
+.sweets__block2 {
+   background-image: url(../img/pic/cream.png);
+}
+
+.sweets__block3 {
+   background-image: url(../img/pic/hazel.png);
+}
+
+h3 {
+   color: #673B19;
+   font-size: 24px;
+   font-weight: 600;
+   margin-top: 284px;
+   text-align: center;
+}
+
+.sweets__block p {
+   color: #774E2E;
+   font-size: 16px;
+   font-weight: 500;
+   letter-spacing: 0.01em;
+   text-align: center;
+}
+
+.main-block1 {
+   background-color: #FFF9EA;
+}
+
+.main-block2 {
+   border: 1px solid #FFFFFF;
+   max-width: 1170px;
+   margin: 0px auto;
+}
+
+.main-block2 h2 {
+   text-align: left;
+   margin-bottom: 30px;
+   margin-top: 150px;
+}
+
+.main-block2 p {
+   color: #774E2E;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 150%;
+   letter-spacing: 0.01em;
+}
+
+.main-block2 h3 {
+   margin-top: 50px;
+   text-align: left;
+}
+
+.yummy-and-sweets {
+   background-image: url(../img/pic/yammi-main.png);
+   background-repeat: no-repeat;
+   background-size: 575px 722px;
+   background-position: center right;
+}
+
+.yummy-and-sweets_text-redo {
+   margin-right: 550px;
+}
+
+ul {
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+ul li {
+   color: #774E2E;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: 0.01em;
+}
+
+ul li:last-child {
+   margin-bottom: 150px;
+}
+
+li::before {
+   background-color: #774E2E;
+   content: "";
+   display: inline-block;
+   vertical-align: middle;
+   width: 3px;
+   height: 3px;
+   border-radius: 50%;
+   margin: auto 10px;
+}
+
+/* Footer */
+.foot-container {
+   background-color: #774E2E;
+}
+
+.foot-container__block {
+   max-width: 1170px;
+   margin: 0px auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.foot-container__block p {
+   color: #FFFFFF;;
+   font-size: 36px;
+   font-weight: 500;
+   letter-spacing: 0.01em;
+}
+
+.block__logo-bottom{
+   width: 99px;
+   height: 99px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+/* Nav toggle */
+.nav-toggle {
+   position: absolute;
+   top: 55px;
+   right: 15px;
+   z-index: 1;
+   width: 30px;
+   padding: 15px 0;
+   font-size: 0;
+   color: transparent;
+   border: 0;
+   background: none;
+   cursor: pointer;
+   display: none;
+}
+
+.nav-toggle__item {
+   display: block;
+   width: 100%;
+   height: 3px;
+   background-color: #774E2E;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin: auto;
+}
+
+.nav-toggle__item::before,
+.nav-toggle__item::after {
+   content: "";
+   width: 100%;
+   height: 3px;
+   position: absolute;
+   background-color: #774E2E;
+   left: 0;
+   z-index: 1;
+}
+
+.nav-toggle__item::before {
+   top: -8px;
+}
+
+.nav-toggle__item::after {
+   bottom: -8px;
+}
+
+/* .menu.active {
+
+} */
+
+.nav-toggle.active .nav-toggle__item {
+   background-color: #F37F34;
+}
+
+.nav-toggle.active .nav-toggle__item::before {
+   background-color: #F37F34;
+}
+
+.nav-toggle.active .nav-toggle__item::after {
+   background-color: #F37F34;
+}
+
+
+/* Adaptive layout */
+@media(max-width: 1200px) {
+   
+   /* Header */
+   .container {
+      margin: 0px 50px;
+   }
+   
+   nav a {
+      font-size: 16px;
+   }
+   
+   nav a:last-child {
+      margin-right: 25px;
+   }
+   
+   .about {
+      background-image: url(../img/pic/yammi-header.png);
+      background-repeat: no-repeat;
+      background-size: 525px 546px;
+   }
+   
+   h1 {
+      font-size: 100px;
+      line-height: 100px;
+      margin-right: 100px;
+      padding-top: 25px;
+   }
+   
+   .about_text-size {
+      margin-right: 180px;
+   }
+
+   /* Main */
+   h2 {
+      font-size: 60px;
+   }
+
+   .main-block1 {
+      margin-top: 100px;
+   }
+
+   .main_block1__sweets {
+      margin: 0px 50px;
+   }
+
+   .sweets__block_color {
+      width: 275px;
+      height: 462px;
+      background-size: 325px 240px;
+   }
+
+   .main-block2 {
+      margin: 0px 50px;;
+   }
+
+   h3 {
+      font-size: 20px;
+   }
+
+   /* Footer */
+   .foot-container__block {
+      margin: 0px 50px;
+   }
+
+   .foot-container__block p{
+      font-size: 28px;
+   }
+}
+
+@media(max-width: 990px) {
+
+   /* Header */
+   .container {
+      margin: 0px 25px;
+   }
+
+   h1 {
+      font-size: 50px;
+      line-height: 55px;
+      margin-right: 245px;
+      padding-top: 50px;
+   }
+
+   .about {
+      background-image: url(../img/pic/yammi-header.png);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      background-size: 425px 446px;
+   }
+
+   .about_text-size {
+      margin-right: 245px;
+   }
+
+   .about__link {
+      width: 280px;
+      height: 69px;
+      font-size: 18px;
+      line-height: 69px;
+   }
+
+   /* Main */
+   h2 {
+      font-size: 35px;
+   }
+
+   .main_block1__sweets {
+      margin: 0px 25px;
+   }
+
+   .main-block2 {
+      margin: 0px 25px;
+      margin-bottom: 75px;
+   }
+
+   .main-block2 h2 {
+      margin-top: 100px;
+   }
+   
+   .sweets__block_color {
+      width: 200px;
+      height: 382px;
+      background-size: 210px 175px;
+   }
+
+   h3 {
+      margin-top: 180px;
+   }
+
+   .sweets__block p {
+      font-size: 15px;
+   }
+
+   .yummy-and-sweets_text-redo {
+      margin-right: 5px;
+   }
+
+   .yummy-and-sweets {
+      background-image: url(../img/pic/yammi-main.png);
+      background-repeat: no-repeat;
+      background-size: 325px 415px;
+      background-position: bottom right;
+   }
+
+   /* Footer */
+   .block__logo-bottom {
+      width: 69px;
+      height: 69px;
+      padding-top: 25px;
+      padding-bottom: 25px
+   }
+
+   .foot-container__block p {
+      font-size: 20px;
+   }
+}
+
+@media(max-width: 770px) {
+
+   /* Header */
+   .menu__logo-top {
+      width: 69px;
+      height: 69px;
+   }
+
+   nav a {
+      font-size: 14px;
+   }
+   
+   nav a:last-child {
+      margin-right: 5px;
+   }
+
+   nav a:hover {
+      font-size: 105%;
+      transition-duration: 1s;
+    }
+
+   h1 {
+      font-size: 50px;
+      line-height: 55px;
+      margin-right: 245px;
+      padding-top: 50px;
+   }
+
+   .about {
+      background-image: url(../img/pic/yammi-header.png);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      background-size: 308px 314px;
+   }
+
+   .about_text-size {
+      margin-right: 5px;
+      padding-bottom: 125px;
+   }
+
+   .about__link {
+      width: 220px;
+      height: 49px;
+      font-size: 16px;
+      line-height: 49px;
+   }
+
+   /* Main */
+   h2 {
+      font-size: 30px;
+   }
+   
+   .sweets__block_color {
+      width: 165px;
+      height: 290px;
+      background-size: 150px 110px;
+   }
+
+   h3 {
+      font-size: 16px;
+      margin-top: 100px;
+   }
+
+   .sweets__block p {
+      font-size: 14px;
+   }
+
+    /* Footer */
+    .block__logo-bottom {
+      width: 69px;
+      height: 69px;
+      padding-top: 25px;
+      padding-bottom: 25px
+   }
+
+   .foot-container__block p {
+      font-size: 16px;
+   }
+}
+
+@media(max-width: 575px) {
+
+   /* Header */
+   .menu__logo-top {
+      width: 39px;
+      height: 39px;
+   }
+
+   .nav {
+      display: none;
+      position: absolute;
+      top: 37px;
+      left: 0;
+      background-color: #FFF9EA;
+      width: 100%;
+      height: 70px;
+      padding-top: 8px;
+   }
+
+   .nav a {
+      color:#bd875e;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20.8px;
+      margin-right: 50px;
+      letter-spacing: 0.2px;
+      text-decoration: none;
+      display: block;
+      margin: 0;
+      padding: 5px 15px;
+   }
+
+   .nav a:hover {
+      color: #F37F34;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      line-height: 55px;
+      margin-right: 0;
+      padding-top: 35px;
+   }
+
+   .about_text-size {
+      text-align: center;
+      font-size: 14px;
+      margin-right: 5px;
+      padding-bottom: 5px;
+   }
+
+   .about {
+      background-image: url(../img/pic/yammi-header.png);
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-size: 268px 268px;
+   }
+
+   .about__link {
+      margin: 0 auto;
+      margin-top: 5px;
+      margin-bottom: 300px;
+      width: 220px;
+      height: 49px;
+      font-size: 16px;
+      line-height: 49px;
+   }
+
+   .menu__logo-top {
+      width: 69px;
+      height: 69px;
+   }
+
+   /* Header ---> Nav toggle */
+   .nav-toggle {
+      display: block;
+   }
+
+   .nav.active {
+      display: block;
+   }
+
+   /* Main */
+   h2 {
+      font-size: 24px;
+      text-align: center;
+   }
+
+   .sweets__block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1170px;
+      margin-top: 65px;
+   }
+
+   .sweets__block_color {
+      width: 280px;
+      height: 250px;
+      background-size: 150px 110px;
+      margin-top: 25px;
+   }
+
+   h3 {
+      margin-top: 120px;
+   }
+
+   .sweets__block p {
+      font-size: 14px;
+   }
+
+   .yummy-and-sweets {
+      background-image: url(../img/pic/yammi-main.png);
+      background-repeat: no-repeat;
+      background-size: 276px 346px;
+      background-position: 50% 65%;
+   }
+
+   .yummy-and-sweets_text-redo {
+      margin-right: 5px;
+      padding-bottom: 400px;
+   }
+
+   ul li:last-child {
+      margin-bottom: 5px;
+   }
+
+   /* Footer */
+   .foot-container__block {
+      margin: 0px 25px;
+   }
+
+   .block__logo-bottom {
+      width: 42px;
+      height: 42px;
+      padding-top: 25px;
+      padding-bottom: 25px
+   }
+
+   .foot-container__block p {
+      font-size: 12px;
+      text-align: center;
+   }
+}
+
+
+
+
+
+
+
